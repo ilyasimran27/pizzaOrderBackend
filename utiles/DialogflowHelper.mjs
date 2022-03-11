@@ -10,7 +10,7 @@ const textQueryRequestResponse = async (projectId, queryText, languageCode) => {
     // The path to identify the agent that owns the created intent.
     const sessionPath = sessionClient.projectAgentSessionPath(
         projectId,
-        getSessionId()
+        'saylani123'
     );
 
      // The text query request.
